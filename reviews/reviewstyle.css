@@ -1,179 +1,158 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Poppins:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", serif;
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
 }
-.body{
-  
-
+.body {
 }
 /* utility classes */
-.nave-container{
-    max-width: 1300px;
-    margin: auto;
-    padding-left: 25x;
-    padding-right: 25x;
+.nave-container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25x;
+  padding-right: 25x;
 }
-.flex{
-    display: flex;
-    
+.flex {
+  display: flex;
 }
-.nave-a{
-    text-decoration: none;
-    color: black;
+.nave-a {
+  text-decoration: none;
+  color: black;
 }
 
 /* header section styling started from here */
- /* navbar styling */
- .navebar{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(239, 239, 239);
-    height: 60px;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-    
- }
- /* logo styling */
- .nave-logo{
-   justify-content: center;
+/* navbar styling */
+.navebar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(239, 239, 239);
+  height: 60px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+/* logo styling */
+.nave-logo {
+  justify-content: center;
   align-items: center;
   gap: 10px;
   cursor: pointer;
   margin-left: 20px;
-  
- }
-.nave-logo-text{
-    margin-top: 16px;
-    font-size: 1.4rem;
-    font-weight: 600;
-    color: brown;
+}
+.nave-logo-text {
+  margin-top: 16px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: brown;
 }
 /* navbar menu styling */
-.nave-menu{
-    margin-top: 17px;
-margin-right: 227px;
+.nave-menu {
+  margin-top: 17px;
+  margin-right: 227px;
 }
-.nave-menu ul{
-    display: flex; 
-    gap: 20px;
-    margin-right: 30px;
+.nave-menu ul {
+  display: flex;
+  gap: 20px;
+  margin-right: 30px;
 }
-.nave-menu li{
-    list-style-type: none;
+.nave-menu li {
+  list-style-type: none;
 }
-.nave-menu a:hover{
-    color: chocolate;
-    
+.nave-menu a:hover {
+  color: chocolate;
 }
-.nave-menu a:active{
-    color: rgb(82, 157, 159);
+.nave-menu a:active {
+  color: rgb(82, 157, 159);
 }
 /* cart styling in navbar */
-.navebar span img{
-margin-right:30px ;
-cursor: pointer;
-margin-bottom: 6px;
-
+.navebar span img {
+  margin-right: 30px;
+  cursor: pointer;
+  margin-bottom: 6px;
 }
-.navebar span img:hover{
-   
-    transition: 0.3s ease-in-out;
+.navebar span img:hover {
+  transition: 0.3s ease-in-out;
   transform: translateX(-7px);
 }
 
 /* navbar styliing */
 
 /* review page styling */
-.review{
-    height: 300px;
-    margin: 0 auto;
-   background-image: url(/images/back1.avif);
-   background-repeat: no-repeat;
-   background-size: cover;
-    text-align: center;
-    padding: 100px;
-    
+.review {
+  height: 300px;
+  margin: 0 auto;
+  background-image: url(./images/back1.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 100px;
 }
-h1{
-    position: relative;
-
+h1 {
+  position: relative;
 }
-.text{
- 
-   color: white;
-   background-color: black;
-   width: 100%;
-   border-radius: 30px;
-   height: 55px;
+.text {
+  color: white;
+  background-color: black;
+  width: 100%;
+  border-radius: 30px;
+  height: 55px;
 }
 .card-img-top {
-    height: 200px; 
-    object-fit: cover; 
-    transition: all 0.2s ease-in-out;
-  
+  height: 200px;
+  object-fit: cover;
+  transition: all 0.2s ease-in-out;
 }
-.card-img:hover{
-   
+.card-img:hover {
 }
 .card {
-    /* width: 300px; */
-    padding: 20px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    transition: opacity 0.3s ease; /* Smooth transition for the opacity */
-    opacity: 1; /* Default opacity */
-    
+  /* width: 300px; */
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: opacity 0.3s ease; /* Smooth transition for the opacity */
+  opacity: 1; /* Default opacity */
 }
 
 .card-img-top:hover {
-    opacity: 0.7; 
-    cursor: pointer;
-    transform: scale(0.9); 
-   
-    
+  opacity: 0.7;
+  cursor: pointer;
+  transform: scale(0.9);
 }
-.fa-heart{
-    color: red;
-    transition: all 0.1s ease-in ;
+.fa-heart {
+  color: red;
+  transition: all 0.1s ease-in;
 }
-.fa-heart:hover{
-    transform: scale(1.5); 
-   
+.fa-heart:hover {
+  transform: scale(1.5);
 }
-.fa-cart-shopping{
-    color: blue;
-    transition: all 0.1s ease-in ;
+.fa-cart-shopping {
+  color: blue;
+  transition: all 0.1s ease-in;
 }
-.fa-cart-shopping:hover{
-    transform: scale(1.5); 
-   
+.fa-cart-shopping:hover {
+  transform: scale(1.5);
 }
-.fa-eye{
-    color: blue;
-    transition: all 0.1s ease-in ;
+.fa-eye {
+  color: blue;
+  transition: all 0.1s ease-in;
 }
-.fa-eye:hover{
-    transform: scale(1.5); 
-   
+.fa-eye:hover {
+  transform: scale(1.5);
 }
-span{
-    color: blue;
-    margin-left: 5px;
+span {
+  color: blue;
+  margin-left: 5px;
 }
-.fa-user{
-    color: blue;
-    transition: all 0.1s ease-in ;
+.fa-user {
+  color: blue;
+  transition: all 0.1s ease-in;
 }
-.fa-user:hover{
-     transform: scale(1.5); 
-   
+.fa-user:hover {
+  transform: scale(1.5);
 }
- 
