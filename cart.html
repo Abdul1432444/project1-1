@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-commerce website</title>
+
+    <!-- font-awesome cdn link -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="navebar">
+      <div class="nave-logo flex">
+        <img src="./images/logo.png" alt="" width="35px" />
+        <p class="nave-logo-text">Living Pulse</p>
+      </div>
+      <div class="nave-menu">
+        <ul>
+          <li><a href="./index.html#home" class="nave-a">Home</a></li>
+          <li><a href="./index.html#product1" class="nave-a">Products</a></li>
+          <li><a href="./about.html" class="nave-a">About Us</a></li>
+          <li><a href="./contact.html" class="nave-a">Contact Us</a></li>
+          <li><a href="./reviews/reviews.html" class="nave-a">Reviews</a></li>
+        </ul>
+      </div>
+      <span
+        ><a href="./cart.html">
+          <img src="./images/cart.png" alt="" width="30px" /></a
+      ></span>
+    </div>
+    <div class="cart-container">
+      <h1>Cart</h1>
+      <section id="cart" class="section-p1">
+        <table width="100%">
+          <thead>
+            <tr>
+              <td>Remove</td>
+              <td>Image</td>
+              <td>Product</td>
+              <td>Price</td>
+              <td>Quantity</td>
+              <td>Subtotal</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <a href="#"
+                  ><i class="fas fa-times-circle" style="color: black"></i
+                ></a>
+              </td>
+              <td><img src="images/products/f1.jpg" alt="" /></td>
+              <td>Cartoon Astronaut T-Shirt</td>
+              <td>$118.19</td>
+              <td><input type="number" value="1" /></td>
+              <td>$118.19</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"
+                  ><i class="fas fa-times-circle" style="color: black"></i
+                ></a>
+              </td>
+              <td><img src="images/products/f2.jpg" alt="" /></td>
+              <td>Cartoon Astronaut T-Shirt</td>
+              <td>$118.19</td>
+              <td><input type="number" value="1" /></td>
+              <td>$118.19</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"
+                  ><i class="fas fa-times-circle" style="color: black"></i
+                ></a>
+              </td>
+              <td><img src="images/products/f3.jpg" alt="" /></td>
+              <td>Cartoon Astronaut T-Shirt</td>
+              <td>$118.19</td>
+              <td><input type="number" value="1" /></td>
+              <td>$118.19</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="cart-add" class="section-p1">
+        <div class="coupon">
+          <h3>Apply Coupon</h3>
+          <div>
+            <input type="text" placeholder="Enter Your Coupon" />
+            <button class="normal my-button">Apply</button>
+          </div>
+        </div>
+        <div class="subtotal">
+          <h3>Cart Totals</h3>
+          <table>
+            <tr>
+              <td>Cart Subtotal</td>
+              <td>$ 335</td>
+            </tr>
+            <tr>
+              <td>Shipping</td>
+              <td>Free</td>
+            </tr>
+            <tr>
+              <td><strong>Total</strong></td>
+              <td><strong>$ 335</strong></td>
+            </tr>
+          </table>
+          <button class="btnnormal my-button">Proceed to checkout</button>
+        </div>
+      </section>
+    </div>
+
+    <footer id="contact">
+      <div class="my-container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <div class="footerlogo">
+              <img src="./images/logo.png" alt="" width="40px" />
+              <span>Living Pulse </span>
+            </div>
+            <p>
+              &#169; 2024 Abdul Wahab A full Stack <br />
+              Developer.All rights reserved.
+            </p>
+            <div class="footer-socialmedia">
+              <p class="footerfb">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100013061261126"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </p>
+              <p class="footerx">
+                <a href="https://github.com/Abdul1432444"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </p>
+              <p class="footerlinkdin">
+                <a href="https://www.linkedin.com/in/abdul-wahab-68a40b263/"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </p>
+              <p class="footerinsta"><i class="fa-brands fa-instagram"></i></p>
+            </div>
+          </div>
+          <div class="footer-card1">
+            <h3>Services</h3>
+            <div class="card1-paras">
+              <p>Free Shipping</p>
+              <p>24/7 Customer Support</p>
+              <p>Easy Returns</p>
+              <p>Order Tracking</p>
+              <p>Secure Payments</p>
+            </div>
+          </div>
+          <div class="footer-card1">
+            <h3>company</h3>
+            <div class="card1-paras">
+              <p>About Us</p>
+              <p>Contact</p>
+              <p>Support</p>
+              <p>pricing</p>
+              <p>Affiliate</p>
+            </div>
+          </div>
+          <div class="footer-card1">
+            <h3>Solutions</h3>
+            <div class="card1-paras">
+              <p>Whois</p>
+              <p>Terms of Services</p>
+              <p>Privacy Policy</p>
+              <p>FAQ</p>
+              <p>Login</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- javascript script file link -->
+    <script src="./script.js"></script>
+  </body>
+</html>
