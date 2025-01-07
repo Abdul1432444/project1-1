@@ -25,11 +25,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(183 230 108);
+  background-color: rgb(232 253 199);
   height: 60px;
   position: fixed;
   top: 0;
   z-index: 1000;
+  box-shadow: 2px 0.5px 10px black;
 }
 /* logo styling */
 .nave-logo {
