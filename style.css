@@ -12,10 +12,10 @@ body {
 
 /* utility classes */
 .my-container {
-  max-width: 1280px;
+  max-width: 100vw;
+  width: 100%;
   margin: auto;
-  padding-left: 25x;
-  padding-right: 25x;
+  padding: 0 0px;
 }
 .flex {
   display: flex;
@@ -107,7 +107,6 @@ body {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 100vw;
 }
 
 .homepage-left {
@@ -204,30 +203,7 @@ body {
   border-radius: 10px;
   text-align: center;
 }
-/* slider styling start from here */
-.slider-heading {
-  font-size: 1rem;
-  margin-top: 30px;
-  margin-left: 10px;
-  text-align: center;
-}
-.slider-heading::after {
-  margin-top: 5px;
-  content: "";
-  background: #ff523b;
-  width: 200px;
-  height: 5px;
-  border-radius: 5px;
-  position: absolute;
-  margin-right: 30px;
-  left: 42%;
-  transform: translateX(-50);
-}
-#wowslider-container1 {
-  width: 100vw !important;
-  padding-top: 30px;
-  z-index: 1 !important;
-}
+
 /* page 1 styling is started from here */
 .page1 {
   height: 80vh;
